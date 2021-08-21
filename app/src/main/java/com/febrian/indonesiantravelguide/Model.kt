@@ -5,6 +5,6 @@ data class Model(
     val description : String? = null,
     val address: String? = null,
     val website : String? = null,
-    val tag : ArrayList<String>? = null,
+    val tag : String? = null,
     val images : ArrayList<Int>? = null
 )

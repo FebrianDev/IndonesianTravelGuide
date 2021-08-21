@@ -1,13 +1,8 @@
 package com.febrian.indonesiantravelguide
 
-import android.view.Display
-
 class ListDataStatic {
     fun getData(): ArrayList<Model> {
 //        Contoh 1 Start
-        val tag1 = ArrayList<String>()
-        tag1.add("Lamongan")
-        tag1.add("Jawa Timur")
         val img1 = ArrayList<Int>()
         img1.add(R.drawable.wbl1)
         img1.add(R.drawable.wbl2)
@@ -22,7 +17,7 @@ class ListDataStatic {
                         "Beberapa wahana unggulan tempat wisata ini antara lain Istana Bawah Laut, Gua Insectarium, Space Shuttle, Anjungan Wali Songo, Texas City, Paus Dangdut, Tembak Ikan, Rumah Kaca, serta Istana Bajak Laut.",
                 "49M5+CVR, Paciran, Kec. Paciran, Kabupaten Lamongan, Jawa Timur 62264",
                 "https://wisatabaharilamongan.com/",
-                tag1,
+                "Lamongan, Jawa Timur",
                 img1
             ))
 //        Contoh 1 End
