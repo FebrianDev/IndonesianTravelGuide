@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/drawable/bg_overlay.xml" value="0.3349609375" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/drawable/bg_search_transparent.xml" value="0.2546875" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/layout/activity_detail.xml" value="0.23854166666666668" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/layout/image_slider_layout_item.xml" value="0.1421875" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/layout/item_list.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/IndonesianTravelGuide/app/src/main/res/layout/shimmer.xml" value="0.23854166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
