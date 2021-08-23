@@ -18,17 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.huawei.hms.client.channel.androidMarket"
-            android:value="false" />
-
     </application>
-
-    <queries>
-        <intent>
-            <action android:name="com.huawei.hms.core.aidlservice" />
-        </intent>
-    </queries>
 
 </manifest>
