@@ -18,7 +18,8 @@ class ListAdapter(private val  list : ArrayList<Model>) : RecyclerView.Adapter<L
             with(binding){
                 binding.title.text = m.name
                 binding.location.text = m.tag
-                Glide.with(itemView.context).load(m.images?.get(0)).into(binding.imageNews)
+
+                Glide.with(itemView).load(m.images!![0]).into(binding.imageNews)
 
                 itemView.setOnClickListener {
                     val intent = Intent(itemView.context, DetailActivity::class.java)

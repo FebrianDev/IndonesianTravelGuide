@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
-
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,16 +14,14 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-=======
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
->>>>>>> origin/master
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/text_title"
@@ -49,8 +45,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_title">
 
-            <androidx.appcompat.widget.SearchView
-                android:id="@+id/searchView"
+                <androidx.appcompat.widget.SearchView
+                    android:id="@+id/searchView"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:layout_marginHorizontal="24dp"
@@ -89,6 +85,7 @@
                                 android:id="@+id/image_news1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:src="@drawable/wbl1"
                                 android:scaleType="centerCrop"
                                 />
                             <RelativeLayout
@@ -104,7 +101,7 @@
                                     android:id="@+id/title_news1"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Wisata Bahari Lamongan"
                                     android:textColor="@color/white"
                                     android:textSize="12sp"
                                     android:textStyle="bold" />
@@ -129,6 +126,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
+                                android:src="@drawable/mks1"
                                 />
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -143,7 +141,7 @@
                                     android:id="@+id/title_news2"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Monumen Kapal Selam"
                                     android:textColor="@color/white"
                                     android:textSize="12sp"
                                     android:textStyle="bold" />
@@ -169,6 +167,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
+                                android:src="@drawable/tps1"
                                 />
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -183,7 +182,7 @@
                                     android:id="@+id/title_news3"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text=""
+                                    android:text="Taman Pelangi Surabaya"
                                     android:textColor="@color/white"
                                     android:textSize="12sp"
                                     android:textStyle="bold" />
@@ -217,6 +216,7 @@
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:paddingBottom="8dp"
                     android:layout_marginVertical="8dp"
                     android:layout_marginHorizontal="16dp"/>
 

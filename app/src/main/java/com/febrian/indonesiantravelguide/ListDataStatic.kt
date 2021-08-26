@@ -22,8 +22,8 @@ class ListDataStatic {
             ))
 
         val img2 = ArrayList<Int>()
-        img1.add(R.drawable.mks1)
-        img1.add(R.drawable.mks2)
+        img2.add(R.drawable.mks1)
+        img2.add(R.drawable.mks2)
         list.add(
             Model(
                 "Monumen Kapal Selam",
@@ -37,9 +37,9 @@ class ListDataStatic {
             ))
 
         val img3 = ArrayList<Int>()
-        img1.add(R.drawable.tps1)
-        img1.add(R.drawable.tps2)
-        img1.add(R.drawable.tps3)
+        img3.add(R.drawable.tps1)
+        img3.add(R.drawable.tps2)
+        img3.add(R.drawable.tps3)
 
         list.add(
             Model(
@@ -54,9 +54,9 @@ class ListDataStatic {
             ))
 
         val img4 = ArrayList<Int>()
-        img1.add(R.drawable.kbs1)
-        img1.add(R.drawable.kbs2)
-        img1.add(R.drawable.kbs3)
+        img4.add(R.drawable.kbs1)
+        img4.add(R.drawable.kbs2)
+        img4.add(R.drawable.kbs3)
 
         list.add(
             Model(
@@ -71,7 +71,7 @@ class ListDataStatic {
             ))
 
         val img5 = ArrayList<Int>()
-        img1.add(R.drawable.mch1)
+        img5.add(R.drawable.mch1)
 
         list.add(
             Model(
@@ -86,7 +86,7 @@ class ListDataStatic {
             ))
 
         val img6 = ArrayList<Int>()
-        img1.add(R.drawable.mas1)
+        img6.add(R.drawable.mas1)
 
         list.add(
             Model(
@@ -101,8 +101,8 @@ class ListDataStatic {
             ))
 
         val img7 = ArrayList<Int>()
-        img1.add(R.drawable.js1)
-        img1.add(R.drawable.js2)
+        img7.add(R.drawable.js1)
+        img7.add(R.drawable.js2)
 
         list.add(
             Model(
@@ -117,8 +117,8 @@ class ListDataStatic {
             ))
 
         val img8 = ArrayList<Int>()
-        img1.add(R.drawable.cp1)
-        img1.add(R.drawable.cp2)
+        img8.add(R.drawable.cp1)
+        img8.add(R.drawable.cp2)
 
         list.add(
             Model(
@@ -133,7 +133,7 @@ class ListDataStatic {
             ))
 
         val img9 = ArrayList<Int>()
-        img1.add(R.drawable.pk1)
+        img9.add(R.drawable.pk1)
 
         list.add(
             Model(
@@ -148,8 +148,8 @@ class ListDataStatic {
             ))
 
         val img10 = ArrayList<Int>()
-        img1.add(R.drawable.kwj1)
-        img1.add(R.drawable.kwj2)
+        img10.add(R.drawable.kwj1)
+        img10.add(R.drawable.kwj2)
 
         list.add(
             Model(
@@ -164,9 +164,9 @@ class ListDataStatic {
             ))
 
         val img11 = ArrayList<Int>()
-        img1.add(R.drawable.cb1)
-        img1.add(R.drawable.cb2)
-        img1.add(R.drawable.cb3)
+        img11.add(R.drawable.cb1)
+        img11.add(R.drawable.cb2)
+        img11.add(R.drawable.cb3)
 
         list.add(
             Model(
@@ -181,9 +181,9 @@ class ListDataStatic {
             ))
 
         val img12 = ArrayList<Int>()
-        img1.add(R.drawable.wsa1)
-        img1.add(R.drawable.wsa2)
-        img1.add(R.drawable.wsa3)
+        img12.add(R.drawable.wsa1)
+        img12.add(R.drawable.wsa2)
+        img12.add(R.drawable.wsa3)
 
         list.add(
             Model(
@@ -198,8 +198,8 @@ class ListDataStatic {
             ))
 
         val img13 = ArrayList<Int>()
-        img1.add(R.drawable.ems1)
-        img1.add(R.drawable.ems2)
+        img13.add(R.drawable.ems1)
+        img13.add(R.drawable.ems2)
 
         list.add(
             Model(
@@ -214,8 +214,8 @@ class ListDataStatic {
             ))
 
         val img14 = ArrayList<Int>()
-        img1.add(R.drawable.gg1)
-        img1.add(R.drawable.gg2)
+        img14.add(R.drawable.gg1)
+        img14.add(R.drawable.gg2)
 
         list.add(
             Model(
@@ -230,8 +230,8 @@ class ListDataStatic {
             ))
 
         val img15 = ArrayList<Int>()
-        img1.add(R.drawable.tp1)
-        img1.add(R.drawable.tp2)
+        img15.add(R.drawable.tp1)
+        img15.add(R.drawable.tp2)
 
         list.add(
             Model(

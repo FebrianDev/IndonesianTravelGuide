@@ -16,5 +16,12 @@ class DetailActivity : AppCompatActivity() {
 
         val data = intent.getParcelableExtra<Model>(KEY_DATA) as Model
         binding.imgSlider.setSliderAdapter(ImageSliderAdapter(data.images))
+        binding.title.text = data.name.toString()
+        binding.description.text = data.description.toString()
+        binding.tag.text = data.tag.toString()
+
+        binding.back.setOnClickListener {
+            onBackPressed()
+        }
     }
 }
